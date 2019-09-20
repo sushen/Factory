@@ -3,6 +3,7 @@ package blog.biswas.video.classten;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,7 +14,12 @@ public class MainActivity extends AppCompatActivity {
 
         Shape shape = new Shape();
 
-        Rectangle rectangle = new Rectangle();
+        Shape rectangle = new Rectangle();
+
+        rectangle.draw();
+
+        ((Rectangle) rectangle).getName();
+
 
         Circle circle = new Circle();
     }
