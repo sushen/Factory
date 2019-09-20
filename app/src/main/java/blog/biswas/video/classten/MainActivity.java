@@ -20,7 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
         ((Rectangle) rectangle).getName();
 
+        ShapeFactory shapeFactory = new ShapeFactory();
 
-        Circle circle = new Circle();
+
+
+
+        Circle circle = (Circle)shapeFactory.getSape("circle");
+        Rectangle rectangle1 = (Rectangle)shapeFactory.getSape("rectangle");
+
+
+
+//        Circle circle = new Circle();
     }
 }
