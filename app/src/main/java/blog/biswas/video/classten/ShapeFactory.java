@@ -9,6 +9,9 @@ public class ShapeFactory {
         else if (type.equals("circle")){
             return new Circle();
         }
+        else if (type.equals("line")){
+            return new Line();
+        }
         else return null;
 
 //        return new Shape();
