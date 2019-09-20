@@ -9,7 +9,7 @@ public class ShapeFactory {
         else if (type.equals("circle")){
             return new Circle();
         }
-        else return new Shape();
+        else return null;
 
 //        return new Shape();
     }
